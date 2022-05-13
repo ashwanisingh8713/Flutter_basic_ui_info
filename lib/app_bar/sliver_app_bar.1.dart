@@ -6,30 +6,15 @@
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(const MyApp());
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  static const String _title = 'Flutter Code Sample';
+class AppBar_Silver extends StatefulWidget {
+  const AppBar_Silver({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: _title,
-      home: MyStatefulWidget(),
-    );
-  }
+  State<AppBar_Silver> createState() => _AppBar_SilverState();
 }
 
-class MyStatefulWidget extends StatefulWidget {
-  const MyStatefulWidget({Key? key}) : super(key: key);
-
-  @override
-  State<MyStatefulWidget> createState() => _MyStatefulWidgetState();
-}
-
-class _MyStatefulWidgetState extends State<MyStatefulWidget> {
+class _AppBar_SilverState extends State<AppBar_Silver> {
   bool _pinned = true;
   bool _snap = false;
   bool _floating = false;

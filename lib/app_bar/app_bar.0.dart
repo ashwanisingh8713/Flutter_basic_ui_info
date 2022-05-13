@@ -7,10 +7,8 @@
 import 'package:flutter/material.dart';
 
 
-
-
-class AppBar0 extends StatelessWidget {
-  const AppBar0({Key? key}) : super(key: key);
+class AppBar_0 extends StatelessWidget {
+  const AppBar_0({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
